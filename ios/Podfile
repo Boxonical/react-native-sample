@@ -54,6 +54,8 @@ target 'ReactNativeSandbox' do
   pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
 
+  pod 'RealmJS', :path => '../node_modules/realm'
+
   target 'ReactNativeSandboxTests' do
     inherit! :complete
     # Pods for testing
